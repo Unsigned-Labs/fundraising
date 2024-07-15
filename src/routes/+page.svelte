@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Home from '../components/pages/home.svelte';
+	import Projects from '../components/pages/projects.svelte';
+</script>
+
+<section class="font-Raleway w-full">
+	<Home />
+	<Projects />
+</section>
